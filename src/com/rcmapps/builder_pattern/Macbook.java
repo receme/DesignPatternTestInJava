@@ -1,12 +1,12 @@
 package com.rcmapps.builder_pattern;
 
-public class MacbookPro {
+public class Macbook {
 
     private final int ram;
     private final String processor;
     private final String dvdDrive;
 
-    public MacbookPro(Builder builder) {
+    public Macbook(Builder builder) {
         this.ram = builder.ram;
         this.processor = builder.processor;
         this.dvdDrive = builder.dvdDrive;
@@ -44,8 +44,8 @@ public class MacbookPro {
             return this;
         }
 
-        public MacbookPro build(){
-            return new MacbookPro(this);
+        public Macbook build(){
+            return new Macbook(this);
         }
 
     }

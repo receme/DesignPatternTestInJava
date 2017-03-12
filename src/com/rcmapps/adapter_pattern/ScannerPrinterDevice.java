@@ -30,6 +30,4 @@ public class ScannerPrinterDevice implements ScannerFunctions {
     public void scan() {
         System.out.println("Scan with functionality added in scanner-printer device. because adapted \"printer\" device does not have scan functionality");
     }
-
-
 }
