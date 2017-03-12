@@ -1,6 +1,5 @@
 package com.rcmapps.builder_pattern;
 
-import com.rcmapps.builder_pattern.MacbookPro;
 
 public class Main {
 
