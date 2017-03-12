@@ -1,4 +1,4 @@
-package com.rcmapps;
+package com.rcmapps.builder_pattern;
 
 import com.rcmapps.builder_pattern.MacbookPro;
 
